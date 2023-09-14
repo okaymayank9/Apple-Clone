@@ -125,6 +125,7 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     background-color: black;
     border-radius:20px;
+    transition: 0.7s;
 }
 
 .card-white{
@@ -136,6 +137,7 @@
     padding: 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius:20px;
+    transition: 0.7s;
 }
 
 .card-black span{
@@ -183,6 +185,16 @@
 
 .services img{
     border-radius: 50%;
+}
+
+.card-black:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.card-white:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 
